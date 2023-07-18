@@ -11,6 +11,19 @@
     transition: all 0.2s linear;
 }
 
+.row {
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.col-lg-6{
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
 html {
     font-size: 62.5%;
     overflow: hidden;
@@ -194,4 +207,23 @@ display:inline-block;
     .menu>li:not(:last-child) {
         border-bottom: 1px solid #444;
     }
+}
+header.masthead, .jumbotron {
+    position: relative;
+    width: 100%;
+    padding-top: 150px;
+    color: white;
+    background: linear-gradient(to right, #00031d, #000536);
+    background-attachment: fixed;
+}
+header.masthead .header-content {
+    margin-bottom: 100px;
+    text-align: center;
+}
+.hero-buttons.last {
+    border-color: #1adb80 !important;
+    background: #1adb80 !important;
+    display: block;
+    /* width: 250px; */
+    text-align: center;
 }
