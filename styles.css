@@ -158,11 +158,13 @@ display:inline-block;
     html {
         font-size: 55%;
     }
-    header {
-        padding: 2rem;
+    header{
+        padding: 0%;
     }
+    
+    
     section {
-        padding: 2rem;
+        padding: 0rem;
     }
 }
 
